@@ -37,7 +37,7 @@ body {
     padding-bottom: 44px;
 }
 
-.top__text_strong {
+.text__strong {
     font-weight: 700;
     font-size: 18px;
     line-height: 32px;
@@ -83,7 +83,6 @@ body {
     text-decoration: none;
     left: 32px;
     bottom: 32px;
-
 } 
 
 .product__link:hover {
@@ -95,6 +94,171 @@ body {
     border-radius: 16px;
 }
 
+.gameseasons {
+    padding-top: 233px;
+    background: #000915;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 135px;
+}
+
+.gameseasons__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.gameseasons__box_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.gameseasons__box_text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-top: 32px;
+}
+
+.gameseasons__box_btn {
+    margin-top: 32px;
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234px;
+    height: 48px;
+    border: none;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.gameseasons__box_btn:hover {
+    cursor: url(img/Vector.svg), pointer;
+}
+
+.gameseasons__img {
+    width: 485px;
+    height: 333px;
+}
+
+.gamewords {
+    padding-top: 239px;
+    background: #000915;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 135px;
+}
+
+.gamewords__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.gamewords__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.gamewords__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-top: 32px;
+}
+
+.gamewords__btn {
+    margin-top: 32px;
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234px;
+    height: 48px;
+    border: none;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.gamewords__btn:hover {
+    cursor: url(img/Vector.svg), pointer;
+}
+
+.gamewords__img {
+    width: 481px;
+    height: 322px;
+}
+
+.gamepuzzles {
+    padding-top: 276px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(img/gamethree.jpg) no-repeat center;
+    background-size: cover;
+    height: 800px;
+}
+
+.gamepuzzles__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.gamepuzzles__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 32px;
+}
+
+.gamepuzzles__btn {
+    margin-top: 32px;
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234px;
+    height: 48px;
+    border: none;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.gamepuzzles__btn:hover {
+    cursor: url(img/Vector.svg), pointer;
+}
+
+.footer {
+    background: #000915;
+    height: 80px;
+    border: 1px solid rgba(184, 212, 255, 0.2);
+}
+
+.footer__text {
+    padding-top: 32px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
 @media (min-width: 375px) and (max-width: 768px) {
     .center {
         padding-left: 16px;
@@ -105,6 +269,9 @@ body {
         height: 735px;
         background: url(img/bckmobile.png) no-repeat center;
         background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .top__title {
@@ -123,19 +290,78 @@ body {
         width: 343px;
     }
 
-    .top__text_strong {
+    .text__strong {
         font-weight: 700;
         font-size: 14px;
         line-height: 22px;
-    }
-
-    .top__btn {
-        margin-left: 54px;
     }
 
     .product__box-img {
         width: 343px;
     }
 
+    .gameseasons {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .gameseasons__box {
+        text-align: center;
+        align-items: center;
+    }
 
+    .gameseasons__box_title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .gameseasons__box_text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .gameseasons__box {
+        text-align: center;
+    }
+
+    .gameseasons__img {
+        width: 343px;
+    }
+
+    .gamewords {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .gamewords__box {
+        text-align: center;
+        align-items: center;
+    }
+
+    .gamewords__img {
+        width: 343px;
+    }
+
+    .gamewords__title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .gamewords__text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .gamepuzzles__title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .gamepuzzles__text {
+        font-size: 14px;
+        line-height: 22px;
+    }
 }
+    
+
+    
