@@ -22,4 +22,3 @@ const gameSeasons = () => {
           break;
       }
   }
-  gameSeasons();
