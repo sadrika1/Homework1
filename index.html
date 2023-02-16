@@ -13,7 +13,7 @@
 <body>
     <section class="top center">
         <h1 class="top__title">Добро пожаловать на мой сайт!</h1>
-        <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="top__text_strong">поехали</span> и <span class="top__text_strong">приступай</span></p>
+        <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="text__strong">поехали</span> и <span class="text__strong">приступай</span></p>
         <button class="top__btn">Поехали!</button>
     </section>
 
@@ -28,5 +28,36 @@
             <a class="product__link" href="#"><img src="img/game3.png" alt="" class="product__box-img"><p class="product__text">Игра 3</p></a>
         </article>
     </section>
+
+    <section class="gameseasons center">
+        <article class="gameseasons__box">
+            <h2 class="gameseasons__box_title">Времена года</h2>
+            <p class="gameseasons__box_text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <button onclick="gameSeasons();" class="gameseasons__box_btn">Поехали!</button>
+        </article>
+        <img class="gameseasons__img" src="img/gameone.svg" alt="game">
+    </section>
+
+    <section class="gamewords center">
+        <img class="gamewords__img" src="img/gametwo.svg" alt="">
+        <article class="gamewords__box">
+            <h2 class="gamewords__title">Запомни слова</h2>
+            <p class="gamewords__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <button onclick="gameTwo()" class="gamewords__btn">Играть!</button>
+        </article>
+    </section>
+
+    <section class="gamepuzzles center">
+        <h2 class="gamepuzzles__title">Игра в загадки</h2>
+        <p class="gamepuzzles__text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+        <button class="gamepuzzles__btn">Играть!</button>
+    </section>
+
+    <footer class="footer center">
+        <p class="footer__text">Все права защищены</p>
+    </footer>
+   
+    <script src="./gameseasons.js"></script>
+    <script src="./gamewords.js"></script>
 </body>
 </html>
